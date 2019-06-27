@@ -1,0 +1,14 @@
+const pagination = document.querySelector('.pages');
+const output = document.querySelector('.output');
+const init = function () {
+    console.log('ready');
+    const url = 'https://randomuser.me/api/?results=100';
+    fetch(url).then(function (res) {
+        return res.json()
+    }).then(function (data) {
+        console.log(data);
+    })
+}
+window.addEventListener('load', function () {
+    init();
+})

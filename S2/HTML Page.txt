@@ -1,0 +1,15 @@
+HTML Page
+<html>
+ 
+<head>
+    <title>JavaScript</title>
+ 
+</head>
+ 
+<body>
+    <div class="output">Loading content.....</div>
+    <div class="pages"></div>
+    <script src="app.js"></script>
+</body>
+ 
+</html>
